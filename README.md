@@ -1,3 +1,3 @@
 # berufsbuddy
 
-Herzlich willkommen bei BerufsBuddy - deinem Berufsberater in der Tasche!
+## Herzlich willkommen bei BerufsBuddy - deinem Berufsberater in der Tasche!
