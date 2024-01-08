@@ -1,15 +1,47 @@
 @media screen and (min-width: 1px) {
     
     body {
-        background-color: #F7EFE2;
+        font-family: 'M PLUS Rounded 1c';
+        font-size: 22px;
+        text-decoration: none;
     }
 
-    html {
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    header {
+        height: 104px;
+        background-color: #FFB331;      
+        font-weight: bold;
+        color: white;
     }
 
-    h1 {
+    nav {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: nowrap; 
+        height: 100%;
         text-align: center;
+    }
+
+    .logo {
+        width: 30%;
+        margin-left: 20%;
+    }
+
+    .nav_point {
+        list-style-type: none;
+        text-decoration: none;
+        color: white;
+    }
+
+    .center {
+        margin: auto;
+      }
+
+    button {
+        width: 220px;
+        height: 51px;
+        color: white;
+        background-color: purple;
+        border-radius: 20px;
     }
 
 
