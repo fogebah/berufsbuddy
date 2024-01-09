@@ -22,8 +22,10 @@
     }
 
     .logo {
-        width: 30%;
+        width: 20%;
+        padding: 0% 5%;
         margin-left: 20%;
+        text-align: center;
     }
 
     .nav_point {
@@ -40,9 +42,30 @@
         width: 220px;
         height: 51px;
         color: white;
-        background-color: purple;
-        border-radius: 20px;
+        border-radius: 30px;
+        font-weight: 800;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        border: 0px;
     }
+
+    .button_purple {
+    background-color: #7252A5;
+    }
+
+    button:before {
+            content: '';
+            position: absolute;
+            display: block;
+            top: 5px;
+            bottom: -5px;
+            left: -5px;
+            right: 5px;
+            z-index: -1;
+            border: 2px solid rgba(0, 0, 0, 0.8);
+            border-radius: 30px;
+      }
 
 
     #logo {
