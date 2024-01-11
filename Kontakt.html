@@ -3,61 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kontakt BerufsBuddy</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <title>BerufsBuddy</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=M PLUS Rounded 1c' rel='stylesheet'>
 </head>
+
 <body>
 <header>
     <nav>
-        <a href="../index.html">Home</a>
-        <a href="Angebot.html">Angebot</a>
-        <a href="Ueber_uns.html">Über uns</a>
-        <a href="Kontakt.html">Kontakt</a>
+        <img class="logo center" src="img/Logo_BerufsBuddy_quer_Claim.png" alt="BerufsBuddy Logo">
+        <a class="nav_point center" href="Angebot.html">Die App</a>
+        <a class="nav_point center" href="Ueber_uns.html">Über uns</a>
+        <a class="nav_point center active" href="Kontakt.html">Kontakt</a>
+        <button class="purple center" onclick="window.location.href='test.html'">
+            download now
+        </button>
     </nav>
 </header>
+
+
 <main>
-    <article>   
-        <h1>Kontakt</h1>
-        <h2>Zögere nicht, uns zu kontaktieren</h2>
-        <form action="/action_page.php">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Max Muster" required>
-            <label for="email">E-Mail Adresse</label>
-            <input type="email" id="email" placeholder="max.muster@muster.ch" required>
-            <label for="tel">Telefonnummer</label>
-            <input type="text" id="tel" placeholder="041 123 45 67">
-            <label for="nachricht">Nachricht</label>
-            <input type="text" id="nachricht" placeholder="Deine Nachricht an BerufsBuddy" required>
-            <p>Es gelten unsere <a href="impressum.html">AGBs</a></p>
-            <input type="submit" value="Absenden">
-          </form>
+
+    <article class="top blue top_fix_height">
+        <div class="user_quote_margin">
+            <img src="img/icon_group2.png" alt="Icons im Hintergrund, die ein Stethoskop, einen Baumhelm und eine Farbpalette zeigen">
+        </div>
+        <div class="people">
+            <img src="img/boy.png" alt="Mädchen mit Kopfhörern schaut in ihr Smartphone">
+        </div>
+        <div class="mobile">
+            <img src="img/phone.png" alt="Mädchen mit Kopfhörern schaut in ihr Smartphone">
+        </div>
+        <div class="user_quote_margin">
+            <img src="img/icon_group2.png" alt="Icons im Hintergrund, die ein Stethoskop, einen Baumhelm und eine Farbpalette zeigen">
+        </div>
     </article>
-    <article>
-        <h2>Hier findest du uns</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.612998533262!2d8.534321375008421!3d47.3804713035674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a0e94be043d%3A0xc71552d5ad2fac54!2sLimmatstrasse%2021%2C%208005%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1701166079479!5m2!1sde!2sch" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    <article class="infobox beige">
+            <div class="infobox_info">
+                <h1 class="center_between_images "><img class="tada tada_einzug" src="img/Logo_BerufsBuddy_Icons_left.png" alt="Der Zitel wird mit drei Strichen links ausgeschmückte">Kontakt<img class="tada" src="img/Logo_BerufsBuddy_Icons_right.png" alt="Der Zitel wird mit drei Strichen rechts ausgeschmückte">
+                </h1>
+                <p>+41 (0)41 234 56 78<br>
+                    hello@berufsbuddy.ch</p>
+                <p>BerufsBuddy GmbH<br>
+                    Limatstrasse 21<br>
+                    8001 Zürich</p>
+            </div>
+
+            <div class="infobox_info">
+                <h1>Öffnungszeiten</h1>
+                <img class="purple_underline" src="img/Logo_BerufsBuddy_Icons_purple.png" alt="Der Titel wird lilafarben unterstrichen">
+               
+                <p>Montag bis Freitag<br>
+                    07.30 - 17.00 Uhr</p>
+            <div>
+
+                <article>
+                    <h2>Hier findest du uns</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2701.612998533262!2d8.534321375008421!3d47.3804713035674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47900a0e94be043d%3A0xc71552d5ad2fac54!2sLimmatstrasse%2021%2C%208005%20Z%C3%BCrich!5e0!3m2!1sde!2sch!4v1701166079479!5m2!1sde!2sch" width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+
+                <div class="infobox_info">
+                    <h1>Zögere nicht, uns zu kontaktieren</h1>
+                    <img class="purple_underline" src="img/Logo_BerufsBuddy_Icons_purple.png" alt="Der Titel wird lilafarben unterstrichen">
+                   
+                    <p>Montag bis Freitag<br>
+                        07.30 - 17.00 Uhr</p>
+                <div>
+
+                    <form action="action_page.php">
+                        <label for="name">Vorname und Name</label>
+                        <input type="text" id="name" class="border_orange" placeholder="Max Muster" required>
+                        <label for="email">E-Mail Adresse</label>
+                        <input type="email" id="email" placeholder="max.muster@muster.ch" required>
+                        <label for="tel">Telefonnummer</label>
+                        <input type="number" id="tel" placeholder="041 123 45 67">
+                        <label for="nachricht">Nachricht</label>
+                        <textarea id="nachricht" placeholder="Deine Nachricht an BerufsBuddy" required></textarea>
+                        <p>Es gelten unsere <a href="impressum.html">AGBs</a></p>
+                        <input class="submit purple center" type="submit" value="Absenden">
+                      </form>
+
     </article>
-    <article>
-        <h3>Kontakt</h3>
-        <p>012 345 67 89
-           <a href="mailto:hello@berufsbuddy.ch">hello@berufsbuddy.ch</a>
-           BerufsBuddy GmbH
-           Limmattstrasse 21
-           8001 Zürich
-        </p>
-        <h3>Öffnungszeiten</h3>
-        <p>Montag - Freitag: 07:30 - 17:00 Uhr</p>
-    </article>
-</main>   
-</body>
-<footer>
-    <p>BerufsBuddy GmbH, Limmattstrasse 21, 8001 Zürich
-        012 345 67 89, <a href="mailto:hello@berufsbuddy.ch">hello@berufsbuddy.ch</a></p>
-    <a href="Kontakt.html">Kontakt</a>
-    <a href="impressum.html">AGBs</a>
-    <a href="impressum.html">Impressum</a>
-    <p>© 2023 Copyright - BerufsBuddy GmbH</p>
-    <a href="http://tiktok.com" target="_blank"><img src="../img/001-tiktok.png" alt="BerufsBuddy TikTok"></a>
-    <a href="http://instagram.com" target="_blank"><img src="../img/002-instagram.png" alt="BerufsBuddy Instagram"></a>
-    <a href="http://linkedin.com" target="_blank"><img src="../img/003-linkedin.png" alt="BerufsBuddy LinkedIn"></a>
-</footer>
+
+    <footer class="purple">
+        <div class="adress">
+           <p>BerufsBuddy GmbH<br>
+            Limmattstrasse 21, 8001 Zürich<br>
+            012 345 67 89, hello@berufsbuddy.ch</p>
+            <p>© 2024 Copyright - BerufsBuddy GmbH</p>
+        </div>
+        <div class="social_media">
+            <img class="social_media_icon" src="img/002-instagram.png" alt="Icon Instagram">
+            <p>
+                <a href="Kontakt.html">Kontakt</a>
+            </p>
+        </div>
+        <div class="social_media">
+            <img class="social_media_icon" src="img/001-tiktok.png" alt="Icon Instagram">
+            <p>
+                <a href="impressum.html">Impressum</a>
+            </p>
+        </div>
+        <div class="social_media">
+            <img class="social_media_icon" src="img/003-linkedin.png" alt="Icon Instagram">
+            <p>
+                <a href="impressum.html">AGBs</a>
+            </p>
+        </div>
+
+    
+
+    </footer>
 </html>

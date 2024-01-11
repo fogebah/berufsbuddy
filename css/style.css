@@ -463,4 +463,48 @@
         font-size: 14px;
     }
 
+    label {
+        font-size: 14px;
+    }
+
+    input:not(.submit), textarea {
+        display: flex;
+        width: 580px;
+        height: 64px;
+        padding: 0px 24px;
+        align-items: center;
+        border-radius: 16px;
+        background-color: #FFF;
+
+    }
+
+    .border_orange {
+        border: 2px solid #FE7740;
+    }
+
+    .submit {
+        width: 220px;
+        height: 51px;
+        color: white;
+        border-radius: 30px;
+        font-weight: 800;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        border: 0px;
+    }
+
+    
+    .submit:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 5px;
+        bottom: -5px;
+        left: -5px;
+        right: 5px;
+        z-index: -1;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+  }
 }
