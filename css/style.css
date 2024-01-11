@@ -217,6 +217,7 @@
     .purple_underline {
         width: 320px;
         height: 35px;
+        margin-top: -15px;
     }
 
     footer {
@@ -294,10 +295,143 @@
         width: 50%;
         color: white;
         padding: 24px 0;
+        text-align: center;
     }
 
     .store_logo img {
         width: 250px;
+    }
+
+    .prices {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        text-align: left;
+        padding: 0 10%;
+    }
+
+    .price_variants {
+        width: 30%;
+        color: white;
+        padding: 24px;
+        margin: 0 1% 24px 1%;
+        border-radius: 15px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        border: 0px;
+    }
+
+    .price_variants img {
+        max-width: 100%;
+        max-height: 100px;
+    }
+
+    .price_variants:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 5px;
+        bottom: -5px;
+        left: -5px;
+        right: 5px;
+        z-index: -1;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+    }
+
+    .contact {
+        padding: 0px 50px;
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    .team {
+        width: 50%;
+        height: auto;
+        position: relative;
+    }
+
+    .team img {
+        max-height: 100%;
+        position: absolute;
+        bottom: 0;
+    }
+
+    
+    .team_show {
+        width: 21%;
+        height: 275px;
+        color: white;
+        margin: 0 1%;
+        border-radius: 50px;
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        z-index: 1;
+        border: 0px;
+        margin-bottom: 16px;
+        margin-right: 50px;
+        float: left;
+    }
+
+    .team_show img {
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .team_show:before {
+        content: '';
+        position: absolute;
+        display: block;
+        top: 5px;
+        bottom: -5px;
+        left: -5px;
+        right: 5px;
+        z-index: -1;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        border-radius: 50px;
+    }
+
+    .values {
+        text-align: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap;
+    }
+
+    .values img {
+        width: 100px;
+    }
+
+    .friends {
+        width: 27%;
+        height: 83px;
+        padding: 2%;
+        margin-right: 2%;
+        margin-bottom: 24px;
+        border-radius: 30px;
+        background-color: #FFF;
+        position: relative;
+
+    }
+
+    .friends img {
+        max-height: 100%;
+        max-width: 86%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .friends_overall {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
     }
 
     h1 {
@@ -312,6 +446,7 @@
     p {
         font-size: 14px;
     }
+    
 
     a {
         text-decoration: none;
@@ -321,6 +456,11 @@
     .active {
         text-decoration: underline;
         text-underline-offset: 8px;
+    }
+
+    li {
+        text-align: left;
+        font-size: 14px;
     }
 
 }
