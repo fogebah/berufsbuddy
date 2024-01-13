@@ -29,6 +29,10 @@
         text-align: center;
     }
 
+    .logo img {
+        width: 100%;
+    }
+
     .nav_point {
         list-style-type: none;
         text-decoration: none;
@@ -49,6 +53,11 @@
         position: relative;
         z-index: 1;
         border: 0px;
+        margin: 24px 0;
+    }
+
+    button:hover {
+        background-color: #FE7740;
     }
 
     .purple {
@@ -89,6 +98,14 @@
         flex-direction: row; 
         flex-wrap: wrap; 
         text-align: left;
+        padding: 0 20%;
+    }
+
+    .top2 {
+        display: flex;
+        flex-direction: row; 
+        flex-wrap: wrap; 
+        text-align: left;
         padding: 0 10%;
     }
 
@@ -116,9 +133,13 @@
     }
 
     .people {
-        width: 25%;
+        width: 33%;
+        margin-right: 2%;
         height: auto;
         position: relative;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
     }
 
     .people img {
@@ -132,6 +153,9 @@
         width: 25%;
         height: auto;
         position: relative;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
     }
 
     .mobile img {
@@ -146,7 +170,7 @@
         flex-direction: row; 
         flex-wrap: wrap; 
         text-align: left;
-        padding: 0 10%;
+        padding: 0 20%;
     }
 
     .infobox_info {
@@ -177,6 +201,17 @@
         border: 0px;
     }
 
+    .none {
+        display: none;
+    }
+
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
     .user_quote img {
         max-width: 100%;
         max-height: 100px;
@@ -200,6 +235,9 @@
         width: 20%;
         height: auto;
         position: relative;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
     }
 
 
@@ -225,7 +263,7 @@
         flex-direction: row; 
         flex-wrap: wrap; 
         text-align: left;
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .adress {
@@ -243,12 +281,16 @@
     .social_media img {
         width: 50px;
     }
+    .social_media img:hover {
+    background-color: white;
+    border-radius: 20px;
+    }
 
     .app_show {
-        width: 42%;
+        width: 34%;
         color: white;
         padding: 24px;
-        margin: 0 1%;
+        margin: 0 4% 0 0;
         border-radius: 15px;
         text-align: center;
         display: inline-block;
@@ -281,7 +323,7 @@
         flex-direction: row; 
         flex-wrap: wrap; 
         text-align: left;
-        padding: 0 10%;
+        padding: 0 20%;
     }
 
     .store_text {
@@ -306,12 +348,10 @@
         display: flex;
         flex-direction: row; 
         flex-wrap: wrap; 
-        text-align: left;
-        padding: 0 10%;
     }
 
     .price_variants {
-        width: 30%;
+        width: 40%;
         color: white;
         padding: 24px;
         margin: 0 1% 24px 1%;
@@ -348,7 +388,7 @@
     }
 
     .team {
-        width: 50%;
+        width: 60%;
         height: auto;
         position: relative;
     }
@@ -361,8 +401,8 @@
 
     
     .team_show {
-        width: 21%;
-        height: 275px;
+        width: 35%;
+        height: 340px;
         color: white;
         margin: 0 1%;
         border-radius: 50px;
@@ -435,22 +475,27 @@
     }
 
     h1 {
-        font-size: 22px;
+        font-size: 30px;
+        font-weight: bold;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 23px;
     }
 
 
     p {
-        font-size: 14px;
+        font-size: 16px;
     }
     
 
     a {
         text-decoration: none;
         color: white;
+    }
+
+    a:hover {
+        color: #0992DA;
     }
 
     .active {
@@ -460,11 +505,11 @@
 
     li {
         text-align: left;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     label {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     input:not(.submit), textarea {
@@ -507,4 +552,35 @@
         border: 2px solid rgba(0, 0, 0, 0.8);
         border-radius: 30px;
   }
+
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    padding: 16px;
+    color: #0992DA;
+    font-weight: bold;
+    font-size: 30px;
+    z-index: 1;
+  }
+
+  .prev:hover,
+  .next:hover {
+    color: #FE7740;
+  }
+
+
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+
+video {
+    cursor: pointer;
+}
+
+
 }

@@ -12,11 +12,11 @@
 <body>
 <header>
     <nav>
-        <img class="logo center" src="img/Logo_BerufsBuddy_quer_Claim.png" alt="BerufsBuddy Logo">
+        <a href="index.html" class="logo center" ><img src="img/Logo_BerufsBuddy_quer_Claim.png" alt="BerufsBuddy Logo"></a>
         <a class="nav_point center" href="Angebot.html">Die App</a>
         <a class="nav_point center" href="Ueber_uns.html">Über uns</a>
         <a class="nav_point center" href="Kontakt.html">Kontakt</a>
-        <button class="purple center" onclick="window.location.href='test.html'">
+        <button class="purple center" onclick="window.location.href='https://www.apple.com/chde/app-store/'">
             download now
         </button>
     </nav>
@@ -29,7 +29,7 @@
             <h1>Swipe dich jetzt zu deinem Traumberuf!</h1>
             <p>Die Berufswahl fällt dir nicht leicht? Kein Problem, wir helfen dir. BerufsBuddy 
                 ist dein Berufsberater in der Tasche! </p>
-            <button class="purple center" onclick="window.location.href='test.html'">
+            <button class="purple" onclick="window.location.href='https://www.apple.com/chde/app-store/'">
                     download now
             </button>
         </div>
@@ -49,7 +49,7 @@
                 Mit BerufsBuddy kannst du dich jederzeit <b>spielend leicht</b> mit deiner Berufswahl befassen. 
                 In unseren Videos stellen wir dir über <b>200 verschiedene Lehrberufe</b> vor – ehrlich und kompakt. 
                 Gemeinsam finden wir die Berufslehre, die zu dir passt!</p>
-            <button class="purple center" onclick="window.location.href='test.html'">
+            <button class="purple" onclick="window.location.href='test.html'">
                     Zum Angebot
             </button>
             <h1>Das sagen unsere User</h1>
@@ -64,17 +64,35 @@
         </div>
 
 
-        <div class="user_quote beige">
+        <div id="user_quote1" class="user_quote beige fade">
             <img src="img/young-woman.png" alt="Zeichnung einer jungen Frau als Symbol für die Bewertung einer Kundin">
             <p>“Dank BerufsBuddy habe ich meinen Traumberuf als Polymechanikerin gefunden!”</p>
             <p>- Julia, 17 Jahre</p>
         </div>
 
-        <div class="user_quote beige">
+        <div id="user_quote2" class="user_quote beige fade">
             <img src="img/young-man.png" alt="Zeichnung eines junges Mannes als Symbol für die Bewertung eines Kunden">
             <p>“Die App ist super einfach zu bedienen und hat mir so geholfen, meinen Weg zu finden!”</p>
             <p>- Roland, 13 Jahre</p>
         </div>
+
+        <div id="user_quote3" class="user_quote none beige fade">
+            <img src="img/young-man.png" alt="Zeichnung einer jungen Frau als Symbol für die Bewertung einer Kundin">
+            <p>“BerufsBuddy hat den Weg zu meinem Traumberuf wesentlich erleichert!”</p>
+            <p>- John, 14 Jahre</p>
+        </div>
+
+        <div id="user_quote4" class="user_quote none beige fade">
+            <img src="img/young-woman.png" alt="Zeichnung eines junges Mannes als Symbol für die Bewertung eines Kunden">
+            <p>“Es ist unglaublich, wie einfach ich zu meinem Lehrberuf kam!”</p>
+            <p>- Lara, 14 Jahre</p>
+        </div>
+
+        <a class="prev" id="prev1" onclick="shownext()">&#10094;</a>
+        <a class="next" id="next1" onclick="shownext()">&#10095;</a>
+
+        <a class="prev none" id="prev2" onclick="shownext2()">&#10094;</a>
+        <a class="next none" id="next2" onclick="shownext2()">&#10095;</a>
 
         <div class="user_quote_margin">
             <img src="img/icon_group2.png" alt="Icons im Hintergrund, die ein Stethoskop, einen Baumhelm und eine Farbpalette zeigen">
@@ -88,7 +106,7 @@
             <h1>Deine Zukunft ist unsere Vision</h1>
             <img class="purple_underline" src="img/Logo_BerufsBuddy_Icons_purple.png" alt="Der Titel wird lilafarben unterstrichen">
             <p>Polymechanikerin, Mediamatikerin oder vielleicht doch eher Fachfrau Gesundheit? Livia war mit ihrer Berufswahl richtig gehend überfordert. Heute ist sie im dritten Lehrjahr als Landschaftsgärtnerin EFZ und könnte glücklicher nicht sein. Dank BerufsBuddy hat sie zu ihrer grossen <b>Leidenschaft</b> gefunden. Mache es auch du wie Livia und lade jetzt BerufsBuddy auf dein <b>Smartphone</b>. Worauf wartest du? Wir jedenfalls sind parat für deine <b>Skills!</b></p>
-            <button class="purple center" onclick="window.location.href='test.html'">
+            <button class="purple" onclick="window.location.href='test.html'">
                     Zum Angebot
             </button>
         </div>
@@ -103,19 +121,19 @@
             <p>© 2024 Copyright - BerufsBuddy GmbH</p>
         </div>
         <div class="social_media">
-            <img class="social_media_icon" src="img/002-instagram.png" alt="Icon Instagram">
+            <a href="https://www.instagram.com/"><img class="social_media_icon" src="img/002-instagram.png" alt="Icon Instagram"></a>
             <p>
                 <a href="Kontakt.html">Kontakt</a>
             </p>
         </div>
         <div class="social_media">
-            <img class="social_media_icon" src="img/001-tiktok.png" alt="Icon Instagram">
+            <a href="https://www.tiktok.com/de-DE/"><img class="social_media_icon" src="img/001-tiktok.png" alt="Icon Instagram"></a>
             <p>
                 <a href="impressum.html">Impressum</a>
             </p>
         </div>
         <div class="social_media">
-            <img class="social_media_icon" src="img/003-linkedin.png" alt="Icon Instagram">
+            <a href="https://www.linkedin.com/"><img class="social_media_icon" src="img/003-linkedin.png" alt="Icon Instagram"></a>
             <p>
                 <a href="impressum.html">AGBs</a>
             </p>
@@ -124,4 +142,30 @@
     
 
     </footer>
+
+    <script> 
+    function shownext(){
+        document.getElementById("user_quote1").style.display = "none";
+        document.getElementById("user_quote2").style.display = "none";
+        document.getElementById("user_quote3").style.display = "block";
+        document.getElementById("user_quote4").style.display = "block";
+        document.getElementById("prev1").style.display = "none";
+        document.getElementById("next1").style.display = "none";
+        document.getElementById("prev2").style.display = "block";
+        document.getElementById("next2").style.display = "block";
+    }
+
+    function shownext2(){
+        document.getElementById("user_quote3").style.display = "none";
+        document.getElementById("user_quote4").style.display = "none";
+        document.getElementById("user_quote1").style.display = "block";
+        document.getElementById("user_quote2").style.display = "block";
+        document.getElementById("prev2").style.display = "none";
+        document.getElementById("next2").style.display = "none";
+        document.getElementById("prev1").style.display = "block";
+        document.getElementById("next1").style.display = "block";
+    }
+
+    </script>
+    </body>
 </html>
