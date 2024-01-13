@@ -1,5 +1,3 @@
-@media screen and (min-width: 1px) {
-    
     body {
         font-family: 'M PLUS Rounded 1c';
         font-size: 18px;
@@ -9,15 +7,15 @@
 
     header {
         height: 104px;
-        background-color: #FFB331;      
+        background-color: #FFB331;
         font-weight: bold;
         color: white;
     }
 
     nav {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: nowrap; 
+        flex-direction: row;
+        flex-wrap: nowrap;
         height: 100%;
         text-align: center;
     }
@@ -41,7 +39,7 @@
 
     .center {
         margin: auto;
-      }
+    }
 
     button {
         width: 220px;
@@ -81,30 +79,30 @@
     }
 
     button:before {
-            content: '';
-            position: absolute;
-            display: block;
-            top: 5px;
-            bottom: -5px;
-            left: -5px;
-            right: 5px;
-            z-index: -1;
-            border: 2px solid rgba(0, 0, 0, 0.8);
-            border-radius: 30px;
-      }
+        content: '';
+        position: absolute;
+        display: block;
+        top: 5px;
+        bottom: -5px;
+        left: -5px;
+        right: 5px;
+        z-index: -1;
+        border: 2px solid rgba(0, 0, 0, 0.8);
+        border-radius: 30px;
+    }
 
     .top {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 0 20%;
     }
 
     .top2 {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 0 10%;
     }
@@ -137,8 +135,8 @@
         margin-right: 2%;
         height: auto;
         position: relative;
-        display: flex; 
-        justify-content: center; 
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
@@ -153,8 +151,8 @@
         width: 25%;
         height: auto;
         position: relative;
-        display: flex; 
-        justify-content: center; 
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
@@ -167,8 +165,8 @@
 
     .infobox {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 0 20%;
     }
@@ -179,11 +177,11 @@
         padding: 24px 0;
     }
 
-    
+
     .users {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 24px 0;
     }
@@ -210,7 +208,7 @@
         -webkit-animation-duration: 1.5s;
         animation-name: fade;
         animation-duration: 1.5s;
-      }
+    }
 
     .user_quote img {
         max-width: 100%;
@@ -229,14 +227,14 @@
         border: 2px solid rgba(0, 0, 0, 0.8);
         border-radius: 30px;
     }
-    
+
 
     .user_quote_margin {
         width: 20%;
         height: auto;
         position: relative;
-        display: flex; 
-        justify-content: center; 
+        display: flex;
+        justify-content: center;
         align-items: center;
     }
 
@@ -250,7 +248,7 @@
         transform: translateY(-50%);
     }
 
-    
+
 
     .purple_underline {
         width: 320px;
@@ -260,8 +258,8 @@
 
     footer {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 0 5%;
     }
@@ -281,9 +279,10 @@
     .social_media img {
         width: 50px;
     }
+
     .social_media img:hover {
-    background-color: white;
-    border-radius: 20px;
+        background-color: white;
+        border-radius: 20px;
     }
 
     .app_show {
@@ -317,11 +316,11 @@
         border: 2px solid rgba(0, 0, 0, 0.8);
         border-radius: 30px;
     }
-    
+
     .store {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
         text-align: left;
         padding: 0 20%;
     }
@@ -346,8 +345,8 @@
 
     .prices {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .price_variants {
@@ -397,15 +396,16 @@
         max-height: 100%;
         position: absolute;
         bottom: 0;
+        z-index: 1;
     }
 
-    
+
     .team_show {
-        width: 35%;
-        height: 340px;
+        width: 40%;
+        height: 230px;
         color: white;
-        margin: 0 1%;
-        border-radius: 50px;
+        margin: 24px 1%;
+        border-radius: 70px;
         text-align: center;
         display: inline-block;
         position: relative;
@@ -414,10 +414,12 @@
         margin-bottom: 16px;
         margin-right: 50px;
         float: left;
+
     }
 
     .team_show img {
         max-width: 100%;
+        max-height: 120%;
         position: absolute;
         left: 0;
         bottom: 0;
@@ -433,14 +435,20 @@
         right: 5px;
         z-index: -1;
         border: 2px solid rgba(0, 0, 0, 0.8);
-        border-radius: 50px;
+        border-radius: 70px;
+    }
+
+    .team_text {
+        float: left;
+        width: 47%;
+        margin-bottom: 48px;
     }
 
     .values {
         text-align: center;
         width: 100%;
         display: flex;
-        flex-direction: column; 
+        flex-direction: column;
         flex-wrap: nowrap;
     }
 
@@ -470,8 +478,8 @@
 
     .friends_overall {
         display: flex;
-        flex-direction: row; 
-        flex-wrap: wrap; 
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     h1 {
@@ -487,7 +495,7 @@
     p {
         font-size: 16px;
     }
-    
+
 
     a {
         text-decoration: none;
@@ -512,9 +520,10 @@
         font-size: 16px;
     }
 
-    input:not(.submit), textarea {
+    input:not(.submit),
+    textarea {
         display: flex;
-        width: 580px;
+        width: 100%;
         height: 64px;
         padding: 0px 24px;
         align-items: center;
@@ -539,7 +548,7 @@
         border: 0px;
     }
 
-    
+
     .submit:before {
         content: '';
         position: absolute;
@@ -551,36 +560,130 @@
         z-index: -1;
         border: 2px solid rgba(0, 0, 0, 0.8);
         border-radius: 30px;
-  }
+    }
 
-  .prev,
-  .next {
-    cursor: pointer;
-    position: absolute;
-    padding: 16px;
-    color: #0992DA;
-    font-weight: bold;
-    font-size: 30px;
-    z-index: 1;
-  }
+    .prev,
+    .next {
+        cursor: pointer;
+        position: absolute;
+        padding: 16px;
+        color: #0992DA;
+        font-weight: bold;
+        font-size: 30px;
+        z-index: 1;
+    }
 
-  .prev:hover,
-  .next:hover {
-    color: #FE7740;
-  }
-
-
-  .prev {
-    left: 0;
-  }
-
-  .next {
-    right: 0;
-  }
-
-video {
-    cursor: pointer;
-}
+    .prev:hover,
+    .next:hover {
+        color: #FE7740;
+    }
 
 
-}
+    .prev {
+        left: 0;
+    }
+
+    .next {
+        right: 0;
+    }
+
+    video {
+        cursor: pointer;
+    }
+
+
+
+    @media screen and (max-width: 900px) {
+
+        #nav_download {
+            display: none;
+
+        }
+
+        .mobile_none {
+            display: none;
+        }
+
+        .top_info {
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .user_quote {
+            width: 90%;
+            margin: 0 5% 24px 5%;
+        }
+
+        footer {
+            text-align: center;
+        }
+
+        .adress {
+            width: 100%;
+        }
+
+        .social_media {
+            width: 33%;
+        }
+
+        .people,
+        .mobile {
+            width: 49%;
+        }
+
+        .app_show {
+            width: 86%;
+        }
+
+        .purple_underline {
+            width: 100%;
+        }
+
+        .store_logo {
+            width: 100%;
+        }
+
+        .price_variants {
+            width: 84%;
+        }
+
+        .contact {
+            margin: 0;
+        }
+
+        .team {
+            width: 100%;
+        }
+
+        .team img {
+            max-width: 100%;
+        }
+
+        .top2:has(.team) {
+            padding: 0;
+        }
+
+        button,
+        .contact {
+            width: 100%;
+        }
+
+        .team_show {
+            width: 80%;
+        }
+
+        .team_text {
+            width: 94%;
+        }
+
+        .google_maps,
+        video {
+            width: 140%;
+            margin: 0 -20%;
+        }
+
+
+    }
