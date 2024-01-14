@@ -281,8 +281,8 @@
     }
 
     .social_media img:hover {
-        background-color: white;
-        border-radius: 20px;
+        background-color: #FE7740;
+        border-radius: 30px;
     }
 
     .app_show {
